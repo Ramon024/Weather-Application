@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #273c75;
+}
+
+.search-box{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #718093;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-btn{
+	color: #f5f6fa;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #718093;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 240px;
+}
+
+::placeholder {
+  color: white;
+ }
+
+.title{
+	width: 315px;
+	height: 50px;
+    border-radius: 10px;
+    top: 16%;
+	left: 38%;
+	position: fixed;
+	background-color: white;
+	font: "Impact";
+}
+
+.title p{
+	text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ .weather-container{
+ 	width: 315px;
+    height: 340px;
+    position: fixed;
+    top: 23%; /* 20 */
+	left: 38%;
+    background-color: #F4F9FF;
+    border-radius: 10px;
+    padding-bottom : 20px;
+ }
+
+.location{
+	text-align: center;
+}
+
+.location p{
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.4em;
+    font-weight: bold; 
+}
+
+.weather-icon{
+    /*width: 315px;*/
+    height: 100px;
+    position: fixed;
+	top: 25%;
+	bottom: 0;
+  	left: 0;
+  	width: 100%;
+  	text-align: center;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.current{
+	position: fixed;
+	top: 45%;
+	text-align: center;
+	right: 45.5%;
+}
+
+.current p{
+	font-size: 1em;
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+}
+
+.current-tempature{
+	text-align: center;
+	width: 315px;
+    height: 100px;
+    position: fixed;
+    top: 47%;
+}
+
+.current-tempature p{
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.current-tempature span{
+	color: #293251;
+    font-size: 0.5em;
+}
+
+.max{
+	position: fixed;
+	top: 51%;
+	text-align: center;
+	right: 42.5%;
+}
+
+.max p{
+	font-size: 0.8em;
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+}
+
+.max-tempature{
+	text-align: center;
+	width: 157px;
+    height: 100px;
+    position: fixed;
+    top: 53%;
+    right: 37%;
+}
+
+.max-tempature p{
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.max-tempature span{
+	color: #293251;
+    font-size: 0.3em;
+}
+
+.min{
+	position: fixed;
+	top: 51%;
+	text-align: center;
+	left: 43%;
+}
+
+.min p{
+	font-size: 0.8em;
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+}
+
+.min-tempature{
+	text-align: center;
+	width: 157px;
+    height: 100px;
+    position: fixed;
+    top: 53%;
+    left: 38%;
+}
+
+.min-tempature p{
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.min-tempature span{
+	color: #293251;
+    font-size: 0.3em;
+}
+
+.description{
+	text-align: center;
+	top: 58%;
+	position: fixed;
+	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+}
+
+.description p{
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.2em;
+}
+
+.humidity{
+	text-align: center;
+	top: 63%;
+	position: fixed;
+	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+}
+
+.humidity p{
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.2em;
+}
+
+.wind-speed{
+	text-align: center;
+	top: 68%;
+	position: fixed;
+	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+}
+
+.wind-speed p{
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.2em;
+}
+
+.wind-speed span{
+	color: #293251;
+    font-size: 0.7em;
+}
+.wind-direction{
+	text-align: center;
+	top: 73%;
+	position: fixed;
+	bottom: 0;
+ 	left: 0;
+ 	width: 100%;
+}
+
+.wind-direction p{
+	text-align: center;
+	padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 1.2em;
+}

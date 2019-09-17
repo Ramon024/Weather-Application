@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+   	<!-- Metadata goes here -->
+   		<meta charset="utf-8">
+   		<link rel="stylesheet" type="text/css" href="style.css">
+   		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+   		<title>Weather App</title>
+
+	</head>
+
+	<body>
+
+  		<div class="search-box">
+  			<input class="search-txt" type ="text" id = "myText" value="" placeholder="Enter a city or zipcode...">
+  			<a class = "search-btn" href="#">
+  				<!-- search icon -->
+  				<i class="fas fa-search" onclick="searchcity()"> </i>
+  			</a>
+  		</div> 
+
+  		<div class="title"><p>Weather</p></div>
+  		<div class="weather-container">
+  			<!-- put the location here -->
+	  		<div class="location"><p>Unknown,US (0.00,0.00)</p></div>
+	  		<!-- put the img here -->
+	  		<div class="weather-icon"><img src="icons/unknown.png" alt=""></div>
+	  		<!-- put the current tempature here -->
+	  		<div class="current"><p>Current Tempature</p></div>
+	  		<div class="current-tempature"><p>- °<span>F</span></p></div>
+	  		<!-- put the minimum tempature here -->
+	  		<div class="min"><p>Min</p></div>
+	  		<div class="min-tempature"><p>- °<span>F</span></p></div>
+	  		<!-- put the maximum tempature here -->
+	  		<div class="max"><p>Max</p></div>
+	  		<div class="max-tempature"><p>- °<span>F</span></p></div>
+	  		<!-- put the description here -->
+	  		<div class="description"><p> - </p></div>
+	  		<!-- put the humidity here -->
+	  		<div class="humidity"><p> - </p></div>
+	  		<!-- put the wind speed here -->
+	  		<div class="wind-speed"><p> - </p><span></span></div>
+	  		<!-- put the wind direction here -->
+	  		<div class="wind-direction"><p> - </p></div>
+	  </div>
+
+	  <script type="text/javascript" src="app.js"></script>
+	</body>
+
+</html>
